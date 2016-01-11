@@ -17,7 +17,7 @@ Experience-Recorder is available through [CocoaPods](http://cocoapods.org). To i
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "Experience-Recorder"
+pod "ExperienceRecorder"
 ```
 
 ## Author
@@ -26,4 +26,4 @@ Cleber Henriques, cleberhenriques@gmail.com
 
 ## License
 
-Experience-Recorder is available under the MIT license. See the LICENSE file for more info.
+ExperienceRecorder is available under the MIT license. See the LICENSE file for more info.
