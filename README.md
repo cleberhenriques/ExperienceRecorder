@@ -1,4 +1,4 @@
-# Experience-Recorder
+# ExperienceRecorder
 
 [![CI Status](http://img.shields.io/travis/Cleber Henriques/Experience-Recorder.svg?style=flat)](https://travis-ci.org/Cleber Henriques/Experience-Recorder)
 [![Version](https://img.shields.io/cocoapods/v/Experience-Recorder.svg?style=flat)](http://cocoapods.org/pods/Experience-Recorder)
