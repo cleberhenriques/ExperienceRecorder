@@ -1,9 +1,8 @@
 # ExperienceRecorder
 
-[![CI Status](http://img.shields.io/travis/Cleber Henriques/Experience-Recorder.svg?style=flat)](https://travis-ci.org/Cleber Henriques/Experience-Recorder)
-[![Version](https://img.shields.io/cocoapods/v/Experience-Recorder.svg?style=flat)](http://cocoapods.org/pods/Experience-Recorder)
-[![License](https://img.shields.io/cocoapods/l/Experience-Recorder.svg?style=flat)](http://cocoapods.org/pods/Experience-Recorder)
-[![Platform](https://img.shields.io/cocoapods/p/Experience-Recorder.svg?style=flat)](http://cocoapods.org/pods/Experience-Recorder)
+[![Version](https://img.shields.io/cocoapods/v/ExperienceRecorder.svg?style=flat)](http://cocoapods.org/pods/ExperienceRecorder)
+[![License](https://img.shields.io/cocoapods/l/ExperienceRecorder.svg?style=flat)](http://cocoapods.org/pods/ExperienceRecorder)
+[![Platform](https://img.shields.io/cocoapods/p/ExperienceRecorder.svg?style=flat)](http://cocoapods.org/pods/ExperienceRecorder)
 
 ## Usage
 
