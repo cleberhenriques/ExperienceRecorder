@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "Experience-Recorder"
+  s.name             = "ExperienceRecorder"
   s.version          = "0.1.0"
   s.summary          = "A library to record the user face and app screen."
 

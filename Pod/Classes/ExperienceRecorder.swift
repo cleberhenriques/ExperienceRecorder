@@ -9,7 +9,7 @@
 import UIKit
 import AVFoundation
 
-class UXRecorder: NSObject {
+public class ExperienceRecorder: NSObject {
     private let faceCaptureSession = AVCaptureSession()
     private let faceCaptureOutput = AVCaptureMovieFileOutput()
     private let faceCaptureOutputPath:  NSURL?
@@ -17,7 +17,7 @@ class UXRecorder: NSObject {
     private(set) var isRecording = false
     private let screenRecorder = ASScreenRecorder.sharedInstance()
     
-    static let sharedRecorder = UXRecorder()
+    public static let sharedRecorder = ExperienceRecorder()
     
     
     override init(){
@@ -64,39 +64,39 @@ class UXRecorder: NSObject {
         print("Did stop recording face")
     }
 
-    func beginRecordingUX() {
+    public func beginRecordingUX() {
         if !isRecording {
-            beginRecordingScreen()
-            beginRecordingFace()
-            
+            let priority = DISPATCH_QUEUE_PRIORITY_DEFAULT
+            dispatch_async(dispatch_get_global_queue(priority, 0)) {
+                self.beginRecordingScreen()
+                self.beginRecordingFace()
+            }
             isRecording = true
         }
     }
     
     
-    func stopRecordingUX() {
+    public func stopRecordingUX() {
         if isRecording {
-            
-            let priority = DISPATCH_QUEUE_PRIORITY_DEFAULT
-            dispatch_async(dispatch_get_global_queue(priority, 0)) {
-                self.stopRecordingScreen()
-                self.stopRecordingFace()
-            }
-            
+            self.stopRecordingScreen()
+            self.stopRecordingFace()
             isRecording = false
         }
     }
 }
 
-extension UXRecorder: AVCaptureFileOutputRecordingDelegate{
-    func captureOutput(captureOutput: AVCaptureFileOutput!, didFinishRecordingToOutputFileAtURL outputFileURL: NSURL!, fromConnections connections: [AnyObject]!, error: NSError!) {
+extension ExperienceRecorder: AVCaptureFileOutputRecordingDelegate{
+    public func captureOutput(captureOutput: AVCaptureFileOutput!, didFinishRecordingToOutputFileAtURL outputFileURL: NSURL!, fromConnections connections: [AnyObject]!, error: NSError!) {
         
         if UIVideoAtPathIsCompatibleWithSavedPhotosAlbum(faceCaptureOutputPath!.path!) {
-            UISaveVideoAtPathToSavedPhotosAlbum(faceCaptureOutputPath!.path!, nil, nil, nil)
+            let priority = DISPATCH_QUEUE_PRIORITY_DEFAULT
+            dispatch_async(dispatch_get_global_queue(priority, 0)) {
+                UISaveVideoAtPathToSavedPhotosAlbum(self.faceCaptureOutputPath!.path!, nil, nil, nil)
+            }
         }
     }
     
-    func captureOutput(captureOutput: AVCaptureFileOutput!, didStartRecordingToOutputFileAtURL fileURL: NSURL!, fromConnections connections: [AnyObject]!) {
+    public func captureOutput(captureOutput: AVCaptureFileOutput!, didStartRecordingToOutputFileAtURL fileURL: NSURL!, fromConnections connections: [AnyObject]!) {
 
     }
 }
