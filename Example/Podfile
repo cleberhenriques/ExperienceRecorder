@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'Experience-Recorder_Example', :exclusive => true do
+  pod "Experience-Recorder", :path => "../"
+end
+
+target 'Experience-Recorder_Tests', :exclusive => true do
+  pod "Experience-Recorder", :path => "../"
+
+  
+end

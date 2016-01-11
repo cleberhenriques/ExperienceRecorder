@@ -1,0 +1,14 @@
+PODS:
+  - Experience-Recorder (0.1.0)
+
+DEPENDENCIES:
+  - Experience-Recorder (from `../`)
+
+EXTERNAL SOURCES:
+  Experience-Recorder:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Experience-Recorder: 9d5dada1b6800cbea9852eaac2c55f8db85277eb
+
+COCOAPODS: 0.39.0

@@ -1,0 +1,25 @@
+{
+  "name": "Experience-Recorder",
+  "version": "0.1.0",
+  "summary": "A short description of Experience-Recorder.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/Experience-Recorder",
+  "license": "MIT",
+  "authors": {
+    "Cleber Henriques": "cleberhenriques@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/Experience-Recorder.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "Experience-Recorder": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
