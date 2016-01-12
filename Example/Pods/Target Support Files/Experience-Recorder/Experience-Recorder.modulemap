@@ -1,6 +1,0 @@
-framework module Experience_Recorder {
-  umbrella header "Experience-Recorder-umbrella.h"
-
-  export *
-  module * { export * }
-}

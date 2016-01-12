@@ -1,14 +1,14 @@
 PODS:
-  - Experience-Recorder (0.1.0)
+  - ExperienceRecorder (0.1.2)
 
 DEPENDENCIES:
-  - Experience-Recorder (from `../`)
+  - ExperienceRecorder (from `../`)
 
 EXTERNAL SOURCES:
-  Experience-Recorder:
+  ExperienceRecorder:
     :path: ../
 
 SPEC CHECKSUMS:
-  Experience-Recorder: 9d5dada1b6800cbea9852eaac2c55f8db85277eb
+  ExperienceRecorder: a9f66bf4dc39f6ab671521c79bd540551636ea3c
 
 COCOAPODS: 0.39.0

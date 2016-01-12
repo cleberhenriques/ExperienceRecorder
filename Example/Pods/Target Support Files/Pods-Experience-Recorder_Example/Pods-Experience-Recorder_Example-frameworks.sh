@@ -84,8 +84,8 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods-Experience-Recorder_Example/Experience_Recorder.framework"
+  install_framework "Pods-Experience-Recorder_Example/ExperienceRecorder.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods-Experience-Recorder_Example/Experience_Recorder.framework"
+  install_framework "Pods-Experience-Recorder_Example/ExperienceRecorder.framework"
 fi
