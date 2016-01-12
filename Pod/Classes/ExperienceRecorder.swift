@@ -38,9 +38,7 @@ public class ExperienceRecorder: NSObject {
             print("Warning: Unable to add front camera as an device input in faceCaptureSession")
         }
         
-        let pathToDocuments = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as NSString
-        let faceCapturePath = pathToDocuments.stringByAppendingPathComponent("face.mov")
-        faceCaptureOutputPath = NSURL(fileURLWithPath: faceCapturePath)
+        faceCaptureOutputPath = ExperienceRecorder.defaultPath()
         faceCaptureSession.startRunning()
     }
     
@@ -76,6 +74,14 @@ public class ExperienceRecorder: NSObject {
             print("Did stop recording face")
         }
     }
+    
+    static private func defaultPath() -> NSURL? {
+        let pathToDocuments = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as NSString
+        let faceCapturePath = pathToDocuments.stringByAppendingPathComponent("face.mov")
+        return NSURL(fileURLWithPath: faceCapturePath)
+    }
+    
+    // MARK: Methods
 
     public func beginRecordingUX() {
         if !isRecording {
