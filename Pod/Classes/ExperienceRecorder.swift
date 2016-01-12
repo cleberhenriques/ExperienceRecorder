@@ -88,10 +88,12 @@ public class ExperienceRecorder: NSObject {
 extension ExperienceRecorder: AVCaptureFileOutputRecordingDelegate{
     public func captureOutput(captureOutput: AVCaptureFileOutput!, didFinishRecordingToOutputFileAtURL outputFileURL: NSURL!, fromConnections connections: [AnyObject]!, error: NSError!) {
         
-        if UIVideoAtPathIsCompatibleWithSavedPhotosAlbum(faceCaptureOutputPath!.path!) {
-            let priority = DISPATCH_QUEUE_PRIORITY_DEFAULT
-            dispatch_async(dispatch_get_global_queue(priority, 0)) {
-                UISaveVideoAtPathToSavedPhotosAlbum(self.faceCaptureOutputPath!.path!, nil, nil, nil)
+        if let path = faceCaptureOutputPath?.path {
+            if UIVideoAtPathIsCompatibleWithSavedPhotosAlbum(path) {
+                let priority = DISPATCH_QUEUE_PRIORITY_DEFAULT
+                dispatch_async(dispatch_get_global_queue(priority, 0)) {
+                    UISaveVideoAtPathToSavedPhotosAlbum(path, nil, nil, nil)
+                }
             }
         }
     }
