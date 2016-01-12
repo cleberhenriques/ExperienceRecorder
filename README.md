@@ -25,9 +25,11 @@ ExperienceRecorder.sharedRecorder.stopRecordingUX()
 ```
 
 After you stop recording two videos will be exported to the camera roll. One of them is the app's screen and the other is the user's face. Now you can 'merge' them side by side to begin taking insights :-] 
+
+You should be thinking: "lol, Apple will reject any app with this library!". Yes, probably will. But this library is meant to be used before you release this app to production, and i strongly recommend that you remove before sending to the AppStore.  
+
 ## Requirements
 
-You should thinking: "lol, Apple will probably reject any app with this library". Yes, probably will. But this library is to be used before you release this app to production :-]
 
 A iOS 8.0+ device. 
 
