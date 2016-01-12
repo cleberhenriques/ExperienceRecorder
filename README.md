@@ -11,13 +11,25 @@ A simple library to record the **user experience** of your iOS app.
 
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+One of the goals of ExperienceRecorder, is to be an **extremely easy** solution to begin recording your app's user experience. So, in order to do this, we have a singleton that we can use to start and stop recording the UX. In this way, you can start recording in the `'SomethingViewController'` and stop recording in `'AnotherViewController'`.
 
+You just have to `import ExperienceRecorder` in the beginning of your Swift class and then:
+
+####Begin recording:
+```Swift
+ExperienceRecorder.sharedRecorder.beginRecordingUX()
+```
+####Stop recording: 
+```Swift
+ExperienceRecorder.sharedRecorder.stopRecordingUX()
+```
+
+After you stop recording two videos will be exported to the camera roll. One of them is the app's screen and the other is the user's face. Now you can 'merge' them side by side to begin taking insights :-] 
 ## Requirements
 
 A iOS 8.0+ device. 
 
-This library **doesn't** works with iOS Simulator. You need a device with a working front camera. 
+This library **doesn't** works with iOS Simulator. You will need a device with a working front camera. 
 
 ## Installation
 
@@ -28,9 +40,19 @@ it, simply add the following line to your Podfile:
 pod "ExperienceRecorder"
 ```
 
-## Author
+## Contribute
 
-Cleber Henriques, cleberhenriques@gmail.com
+Feel free to submit your pull request, suggest any update, report a bug or create a feature request. 
+
+Just want to say `hello`? -> cleberhenriques at gmail.com
+
+## Contributors
+
+Author: [@cleberhenriques](https://facebook.com/cleber.henriques) 
+
+See the people who helps to improve this project: [Contributors](https://github.com/cleberhenriques/ExperienceRecorder/graphs/contributors) ♥
+
+ExperienceRecorder uses [ASScreenRecorder](https://github.com/alskipp/ASScreenRecorder) to record the app's screen. So, i want to thanks [@alskipp](https://github.com/alskipp) for providing this library for us. 
 
 ## License
 
