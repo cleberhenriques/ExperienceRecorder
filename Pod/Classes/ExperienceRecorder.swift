@@ -19,6 +19,7 @@ public class ExperienceRecorder: NSObject {
     
     public static let sharedRecorder = ExperienceRecorder()
     
+    public var debug = false
     
     override init(){
         faceCaptureSession.sessionPreset = AVCaptureSessionPreset352x288
@@ -45,23 +46,35 @@ public class ExperienceRecorder: NSObject {
     
     private func beginRecordingScreen(){
         screenRecorder.startRecording()
-        print("Did begin recording screen")
+        
+        if debug {
+            print("Did begin recording screen")
+        }
     }
     
     private func stopRecordingScreen(){
         screenRecorder.stopRecordingWithCompletion { () -> Void in
-            print("Did stop recording screen")
+            
+            if self.debug {
+                print("Did stop recording screen")
+            }
         }
     }
     
     private func beginRecordingFace(){
         faceCaptureOutput.startRecordingToOutputFileURL(faceCaptureOutputPath, recordingDelegate: self)
-        print("Did begin recording face")
+        
+        if debug {
+            print("Did begin recording face")
+        }
     }
     
     private func stopRecordingFace(){
         faceCaptureOutput.stopRecording()
-        print("Did stop recording face")
+        
+        if debug {
+            print("Did stop recording face")
+        }
     }
 
     public func beginRecordingUX() {
