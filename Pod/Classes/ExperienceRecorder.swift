@@ -50,7 +50,7 @@ public class ExperienceRecorder: NSObject {
     
     private func beginRecordingScreen(){
         
-        switch faceRecorderFolder {
+        switch screenRecorderFolder {
         case .CameraRoll:
             screenRecorder.videoURL = nil
         case .CustomPath(let url):
