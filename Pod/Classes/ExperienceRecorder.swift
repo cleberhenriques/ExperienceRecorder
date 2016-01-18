@@ -77,7 +77,7 @@ public class ExperienceRecorder: NSObject {
         
         switch faceRecorderFolder {
         case .CameraRoll:
-            faceCaptureOutputPath = ExperienceRecorder.defaultPath(withFileName: "face.wav")
+            faceCaptureOutputPath = ExperienceRecorder.defaultPath(withFileName: "face.mov")
         case .CustomPath(let url):
             faceCaptureOutputPath = url
         }
@@ -108,7 +108,7 @@ public class ExperienceRecorder: NSObject {
         }
     }
     
-    private func removeFaceVideoFromCurrentPath(){
+    public func removeFaceVideoFromCurrentPath(){
         let fileManager = NSFileManager.defaultManager()
         
         if let path = faceCaptureOutputPath?.path where fileManager.fileExistsAtPath(path){
