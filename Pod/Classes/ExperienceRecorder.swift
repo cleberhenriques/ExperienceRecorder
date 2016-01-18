@@ -100,23 +100,23 @@ public class ExperienceRecorder: NSObject {
     private func moveFaceVideoToCameraRoll(){
         if let path = faceCaptureOutputPath?.path where NSFileManager.defaultManager().fileExistsAtPath(path){
             if UIVideoAtPathIsCompatibleWithSavedPhotosAlbum(path) {
-                let priority = DISPATCH_QUEUE_PRIORITY_DEFAULT
-                dispatch_async(dispatch_get_global_queue(priority, 0)) {
-                    UISaveVideoAtPathToSavedPhotosAlbum(path, self, "removeFaceVideoFromCurrentPath", nil)
-                }
+                UISaveVideoAtPathToSavedPhotosAlbum(path, self, "video:didFinishSavingWithError:contextInfo:", nil)
             }
         }
     }
     
-    public func removeFaceVideoFromCurrentPath(){
-        let fileManager = NSFileManager.defaultManager()
-        
-        if let path = faceCaptureOutputPath?.path where fileManager.fileExistsAtPath(path){
-            do {
-                try fileManager.removeItemAtPath(path)
-            } catch {
-                if debug {
-                    print("Could not remove file at current path")
+    public func video(videoPath: String, didFinishSavingWithError error: NSError, contextInfo info: UnsafeMutablePointer<Void>) {
+        let priority = DISPATCH_QUEUE_PRIORITY_DEFAULT
+        dispatch_async(dispatch_get_global_queue(priority, 0)) {
+            let fileManager = NSFileManager.defaultManager()
+            
+            if let path = self.faceCaptureOutputPath?.path where fileManager.fileExistsAtPath(path){
+                do {
+                    try fileManager.removeItemAtPath(path)
+                } catch {
+                    if self.debug {
+                        print("Could not remove file at current path")
+                    }
                 }
             }
         }
@@ -130,11 +130,16 @@ public class ExperienceRecorder: NSObject {
     
     // MARK: Methods
 
-    public func beginRecordingUX() {
+    @available(*, deprecated=0.1.3, message="You should use 'startRecordingUX' instead.") public func beginRecordingUX() {
+        startRecordingUX()
+    }
+    
+    public func startRecordingUX() {
         if !isRecording {
+            self.beginRecordingScreen()
+            
             let priority = DISPATCH_QUEUE_PRIORITY_DEFAULT
             dispatch_async(dispatch_get_global_queue(priority, 0)) {
-                self.beginRecordingScreen()
                 self.beginRecordingFace()
             }
             isRecording = true
