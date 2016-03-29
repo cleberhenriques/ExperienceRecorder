@@ -1,6 +1,6 @@
 import UIKit
 import XCTest
-import Experience-Recorder
+import ExperienceRecorder
 
 class Tests: XCTestCase {
     

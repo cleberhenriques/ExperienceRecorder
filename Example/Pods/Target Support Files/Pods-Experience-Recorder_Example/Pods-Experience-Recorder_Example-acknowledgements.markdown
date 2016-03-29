@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## Experience-Recorder
+## ExperienceRecorder
 
 Copyright (c) 2016 Cleber Henriques <cleberhenriques@gmail.com>
 

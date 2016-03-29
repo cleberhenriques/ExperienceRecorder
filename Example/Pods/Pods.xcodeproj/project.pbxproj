@@ -7,53 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0089E94D659A5D6E6328C48C3EB2C8F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		1521A4D953C9D0B107EDF286713F9BBF /* Pods-Experience-Recorder_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 776369B79FB775DFC9877BE4DB4271CC /* Pods-Experience-Recorder_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1845E9A13052E0F17A474A62BC9ED8E5 /* Experience-Recorder.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F330D44AAE7606A8E7EE40E2F101E3FE /* Experience-Recorder.bundle */; };
-		196B94AA93B34DAD234DFE6DAFD67F95 /* Pods-Experience-Recorder_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77023941A285D876C821B13C3E980F74 /* Pods-Experience-Recorder_Example-dummy.m */; };
-		4B86610732B43D6A246621E698183AAA /* Pods-Experience-Recorder_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FEBE03E2953E94C19154FD0EFC5469 /* Pods-Experience-Recorder_Tests-dummy.m */; };
-		561240ED13CF2D11CC1C891FE62DE395 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531B25715900F9178608977B399A9E55 /* ReplaceMe.swift */; };
-		696F82598703214A8A4E93183F5218C7 /* Pods-Experience-Recorder_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EB314FA5DF41F6A9B189F3401E9CAD2 /* Pods-Experience-Recorder_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A0DD961B1C8D6D071A4322F3FFB5113A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		A48B69E3FDA1C6ABF60480A9B80D24BF /* Experience-Recorder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F87673FB9727A47DAD85716A85A3309 /* Experience-Recorder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF6BCD2D869C8609D26E1C8F708135F5 /* Experience-Recorder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FAF7B99C3F9245E67AB6ADE3F93DDDA /* Experience-Recorder-dummy.m */; };
-		D8F6A8EBF544A1F629396399CCB0D0D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		0B3DF89D9A09C6BFBCAFEA86628EC042 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		16828858756E479828ABA4842F8BAA85 /* Pods-Experience-Recorder_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FEBE03E2953E94C19154FD0EFC5469 /* Pods-Experience-Recorder_Tests-dummy.m */; };
+		40C9D724F1EF810A7F4D8F0C1A5C3F58 /* ASScreenRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6908F3CF3B8F38E84DC731CBE4575681 /* ASScreenRecorder.m */; };
+		44FCDDCD2AAA26B10606F05E2EDAE058 /* ExperienceRecorder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2DC0EB21416497E21C1F37EBFA86F8C /* ExperienceRecorder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51BD7308C9D229F893F4E854C429C38A /* Pods-Experience-Recorder_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 776369B79FB775DFC9877BE4DB4271CC /* Pods-Experience-Recorder_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5442EC1A9EB70521D1858B9E56C88F24 /* Pods-Experience-Recorder_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77023941A285D876C821B13C3E980F74 /* Pods-Experience-Recorder_Example-dummy.m */; };
+		8321160662C1806F744BD98FE62A095F /* Pods-Experience-Recorder_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EB314FA5DF41F6A9B189F3401E9CAD2 /* Pods-Experience-Recorder_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA8352C1C26A43F96CFFE4FA189C6087 /* ASScreenRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 44E92F64B82D38E361823044D6B83D5C /* ASScreenRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C18A8722A7593D86E9FA864AF0E64210 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		D0A1A2D2D95334EE02D9A3D4A308F4D2 /* ExperienceRecorder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 837C8EAA65C06244D24BA0218444D756 /* ExperienceRecorder-dummy.m */; };
+		D18A9799919409ED475075DFC882461D /* ExperienceRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE410F70231B4652A8839C3664CCF64B /* ExperienceRecorder.swift */; };
+		DB8DBD50D7C6A90DAD742E77627285EC /* Experience-Recorder.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 113169C3797BD3B31F5FF3FA840DFDE7 /* Experience-Recorder.bundle */; };
+		DC1B5A2C8C862661CD651467A7D8AA32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		81E4C2519DC371B4E4B165F43AAB823D /* PBXContainerItemProxy */ = {
+		9359DF82FBF86C9161B1824D51F3DF3F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0328139FAE6DD1B9B2C837F7102022C3;
-			remoteInfo = "Experience-Recorder-Experience-Recorder";
+			remoteGlobalIDString = 773A103F5C295FA30E74125CD2309685;
+			remoteInfo = ExperienceRecorder;
 		};
-		8FADB3C3F5CB6BDF3E433699E4BBA957 /* PBXContainerItemProxy */ = {
+		A646D78434BEACCE9B411430EE8FDB2B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0C024305732CBA26472776B07A9D6AAA;
-			remoteInfo = "Experience-Recorder";
+			remoteGlobalIDString = 773A103F5C295FA30E74125CD2309685;
+			remoteInfo = ExperienceRecorder;
 		};
-		CA68970CA5E4A74834416D154F8A5364 /* PBXContainerItemProxy */ = {
+		E8196E3B99354C94E6FFF7EA398828F7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0C024305732CBA26472776B07A9D6AAA;
-			remoteInfo = "Experience-Recorder";
+			remoteGlobalIDString = A939D7D2E2D33D1239A71B27E4EEB5F8;
+			remoteInfo = "ExperienceRecorder-Experience-Recorder";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02F067469F2A02B18D7CDF9B2EC47AE2 /* Experience-Recorder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Experience-Recorder.modulemap"; sourceTree = "<group>"; };
-		0E53BC183907AF07A78E00A4640DF133 /* Experience_Recorder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Experience_Recorder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		113169C3797BD3B31F5FF3FA840DFDE7 /* Experience-Recorder.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Experience-Recorder.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13568EFBA2B9D924B268975B9F76D319 /* Pods-Experience-Recorder_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Experience-Recorder_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1BB2EAEE91B74DF87BE081A5EAC8ED6B /* Pods-Experience-Recorder_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Experience-Recorder_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		2322C1F93DCC7BD6D73080492DB460CD /* Experience-Recorder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Experience-Recorder-prefix.pch"; sourceTree = "<group>"; };
 		32F4EDF8C933A9F7695FB47322CCF605 /* Pods-Experience-Recorder_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Experience-Recorder_Example.modulemap"; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		531B25715900F9178608977B399A9E55 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
-		6F87673FB9727A47DAD85716A85A3309 /* Experience-Recorder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Experience-Recorder-umbrella.h"; sourceTree = "<group>"; };
+		44E92F64B82D38E361823044D6B83D5C /* ASScreenRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ASScreenRecorder.h; sourceTree = "<group>"; };
+		6908F3CF3B8F38E84DC731CBE4575681 /* ASScreenRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ASScreenRecorder.m; sourceTree = "<group>"; };
 		762983D234608A27397147CBF49C28D3 /* Pods-Experience-Recorder_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Experience-Recorder_Tests-resources.sh"; sourceTree = "<group>"; };
 		77023941A285D876C821B13C3E980F74 /* Pods-Experience-Recorder_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Experience-Recorder_Example-dummy.m"; sourceTree = "<group>"; };
 		776369B79FB775DFC9877BE4DB4271CC /* Pods-Experience-Recorder_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Experience-Recorder_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -61,117 +61,80 @@
 		79A7114098509C591C0086C2EFC9ABAD /* Pods-Experience-Recorder_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Experience-Recorder_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7CA6DE55CB867DDC82AA2BD7BE73DD5A /* Pods-Experience-Recorder_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Experience-Recorder_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		80AE0AAB078BC4F35C6C938B6F536D4C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		837C8EAA65C06244D24BA0218444D756 /* ExperienceRecorder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ExperienceRecorder-dummy.m"; sourceTree = "<group>"; };
 		8698D2505EBF1A92BED76E39C505459B /* Pods-Experience-Recorder_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Experience-Recorder_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		894919EF118DDF3422188D9E5EBCA0CC /* Pods-Experience-Recorder_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Experience-Recorder_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8B8A576AECE1F5C68DE39350CE9882DB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C3D45B45B1E5F2FECE26F12758AE3E7 /* Pods-Experience-Recorder_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Experience-Recorder_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8E6CD1CE00F89190D1C63DA902F1FAB1 /* Pods-Experience-Recorder_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Experience-Recorder_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8FAF7B99C3F9245E67AB6ADE3F93DDDA /* Experience-Recorder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Experience-Recorder-dummy.m"; sourceTree = "<group>"; };
+		9283F6011466538C82588F9217E34C9C /* Pods_Experience_Recorder_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Experience_Recorder_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EB314FA5DF41F6A9B189F3401E9CAD2 /* Pods-Experience-Recorder_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Experience-Recorder_Example-umbrella.h"; sourceTree = "<group>"; };
+		A0C847F5B10DD2B0F47CB3B9D63EEC8B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2A30B8B9D0143EDF21BF4AEC749CF57 /* ExperienceRecorder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ExperienceRecorder.modulemap; sourceTree = "<group>"; };
+		A2DC0EB21416497E21C1F37EBFA86F8C /* ExperienceRecorder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ExperienceRecorder-umbrella.h"; sourceTree = "<group>"; };
 		A3FEBE03E2953E94C19154FD0EFC5469 /* Pods-Experience-Recorder_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Experience-Recorder_Tests-dummy.m"; sourceTree = "<group>"; };
-		B1E0A444D58D28742EA98B9E3B4AD35F /* Experience-Recorder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Experience-Recorder.xcconfig"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BAD72896BB81ADA11C1AD08DF4314D99 /* ExperienceRecorder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExperienceRecorder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB131DF111636F8C8F325E0ACF7F4A68 /* Pods-Experience-Recorder_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Experience-Recorder_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CF1C8574F13FF6181E68F5BE49731A1A /* Pods_Experience_Recorder_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Experience_Recorder_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE410F70231B4652A8839C3664CCF64B /* ExperienceRecorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ExperienceRecorder.swift; sourceTree = "<group>"; };
+		D0AB6DA2188C1CE995FDAA35D47F719F /* Pods_Experience_Recorder_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Experience_Recorder_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D434A425E7D8579ECD52E1D0BD85D1DE /* ExperienceRecorder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ExperienceRecorder.xcconfig; sourceTree = "<group>"; };
+		DE062F9C052053DF5209E0B8AEDB3F1F /* ExperienceRecorder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ExperienceRecorder-prefix.pch"; sourceTree = "<group>"; };
 		DF4C085AAF1D8899F75D176842172B66 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1E7084283708741A611DA52468AFCB8 /* Pods-Experience-Recorder_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Experience-Recorder_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		ED6EC5C09CE8E717F7AC5D840C361EB1 /* Pods-Experience-Recorder_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Experience-Recorder_Tests.modulemap"; sourceTree = "<group>"; };
-		F330D44AAE7606A8E7EE40E2F101E3FE /* Experience-Recorder.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Experience-Recorder.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD382E73227A6259BEADA7E0897CD252 /* Pods_Experience_Recorder_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Experience_Recorder_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BA777DE6BCB35AFB2E4E2FBC40685242 /* Frameworks */ = {
+		5276645D0E869D5E5F7F06DFF6FB2BB0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0089E94D659A5D6E6328C48C3EB2C8F9 /* Foundation.framework in Frameworks */,
+				C18A8722A7593D86E9FA864AF0E64210 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD3F14EE436FFBADD7B2818AC02D2F94 /* Frameworks */ = {
+		8B0BD598DF2620B3D4ADA23BDCA3401D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D402BCF6F9C40EFC6C33F8B913902181 /* Frameworks */ = {
+		E3EE65384CBA1FE58C3124B33853060D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8F6A8EBF544A1F629396399CCB0D0D0 /* Foundation.framework in Frameworks */,
+				0B3DF89D9A09C6BFBCAFEA86628EC042 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D939A1F09D7EEA601FC38609EB2D8384 /* Frameworks */ = {
+		EF8C20AD9F98749229BD3570E282A4FA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0DD961B1C8D6D071A4322F3FFB5113A /* Foundation.framework in Frameworks */,
+				DC1B5A2C8C862661CD651467A7D8AA32 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0AD9AA1A18894278B475BB9B82892CDF /* Products */ = {
+		1FB0CA04621CC5D5C35F3C3F35D9B46B /* ExperienceRecorder */ = {
 			isa = PBXGroup;
 			children = (
-				F330D44AAE7606A8E7EE40E2F101E3FE /* Experience-Recorder.bundle */,
-				0E53BC183907AF07A78E00A4640DF133 /* Experience_Recorder.framework */,
-				FD382E73227A6259BEADA7E0897CD252 /* Pods_Experience_Recorder_Example.framework */,
-				CF1C8574F13FF6181E68F5BE49731A1A /* Pods_Experience_Recorder_Tests.framework */,
+				80CE72EC72264B37F9FE980E5E232929 /* Pod */,
+				8B1E70254B193DE7E701D506BC4F59E5 /* Support Files */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		2AE9E851EB009DA9FE6DD2E81E33E969 /* Experience-Recorder */ = {
-			isa = PBXGroup;
-			children = (
-				60D66E66808DFD40149EE11DF8BC2D4D /* Pod */,
-				435A57B5BFCD9C92A4677117A115E221 /* Support Files */,
-			);
-			name = "Experience-Recorder";
+			name = ExperienceRecorder;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		435A57B5BFCD9C92A4677117A115E221 /* Support Files */ = {
+		228CEB52DA87502B02A2D97B281607AC /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				02F067469F2A02B18D7CDF9B2EC47AE2 /* Experience-Recorder.modulemap */,
-				B1E0A444D58D28742EA98B9E3B4AD35F /* Experience-Recorder.xcconfig */,
-				8FAF7B99C3F9245E67AB6ADE3F93DDDA /* Experience-Recorder-dummy.m */,
-				2322C1F93DCC7BD6D73080492DB460CD /* Experience-Recorder-prefix.pch */,
-				6F87673FB9727A47DAD85716A85A3309 /* Experience-Recorder-umbrella.h */,
-				8B8A576AECE1F5C68DE39350CE9882DB /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Experience-Recorder";
-			sourceTree = "<group>";
-		};
-		507D0FD222F4769E99BDAD8E013D3C85 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				531B25715900F9178608977B399A9E55 /* ReplaceMe.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		57DE49C18B8285B5B34A994FFC21C421 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2AE9E851EB009DA9FE6DD2E81E33E969 /* Experience-Recorder */,
+				1FB0CA04621CC5D5C35F3C3F35D9B46B /* ExperienceRecorder */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		60D66E66808DFD40149EE11DF8BC2D4D /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				507D0FD222F4769E99BDAD8E013D3C85 /* Classes */,
-			);
-			path = Pod;
 			sourceTree = "<group>";
 		};
 		6E02FD906B754486CB39FFCBBED7642D /* Targets Support Files */ = {
@@ -183,15 +146,34 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		74925AA60A51B74397096D876634C44E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				113169C3797BD3B31F5FF3FA840DFDE7 /* Experience-Recorder.bundle */,
+				BAD72896BB81ADA11C1AD08DF4314D99 /* ExperienceRecorder.framework */,
+				D0AB6DA2188C1CE995FDAA35D47F719F /* Pods_Experience_Recorder_Example.framework */,
+				9283F6011466538C82588F9217E34C9C /* Pods_Experience_Recorder_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				57DE49C18B8285B5B34A994FFC21C421 /* Development Pods */,
+				228CEB52DA87502B02A2D97B281607AC /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				0AD9AA1A18894278B475BB9B82892CDF /* Products */,
+				74925AA60A51B74397096D876634C44E /* Products */,
 				6E02FD906B754486CB39FFCBBED7642D /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		80CE72EC72264B37F9FE980E5E232929 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B1D86CCFA40C110167BD6D31050F854B /* Classes */,
+			);
+			path = Pod;
 			sourceTree = "<group>";
 		};
 		8392CF766C94E44BB57AF06727B23AD8 /* Pods-Experience-Recorder_Example */ = {
@@ -210,6 +192,30 @@
 			);
 			name = "Pods-Experience-Recorder_Example";
 			path = "Target Support Files/Pods-Experience-Recorder_Example";
+			sourceTree = "<group>";
+		};
+		8B1E70254B193DE7E701D506BC4F59E5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2A30B8B9D0143EDF21BF4AEC749CF57 /* ExperienceRecorder.modulemap */,
+				D434A425E7D8579ECD52E1D0BD85D1DE /* ExperienceRecorder.xcconfig */,
+				837C8EAA65C06244D24BA0218444D756 /* ExperienceRecorder-dummy.m */,
+				DE062F9C052053DF5209E0B8AEDB3F1F /* ExperienceRecorder-prefix.pch */,
+				A2DC0EB21416497E21C1F37EBFA86F8C /* ExperienceRecorder-umbrella.h */,
+				A0C847F5B10DD2B0F47CB3B9D63EEC8B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ExperienceRecorder";
+			sourceTree = "<group>";
+		};
+		B1D86CCFA40C110167BD6D31050F854B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				44E92F64B82D38E361823044D6B83D5C /* ASScreenRecorder.h */,
+				6908F3CF3B8F38E84DC731CBE4575681 /* ASScreenRecorder.m */,
+				BE410F70231B4652A8839C3664CCF64B /* ExperienceRecorder.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -249,103 +255,104 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0DCD02946AE3F3B3D081A70F15FA6D9A /* Headers */ = {
+		300CBE5A33D2B75B0EEB4BDD9A770CC6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				696F82598703214A8A4E93183F5218C7 /* Pods-Experience-Recorder_Example-umbrella.h in Headers */,
+				BA8352C1C26A43F96CFFE4FA189C6087 /* ASScreenRecorder.h in Headers */,
+				44FCDDCD2AAA26B10606F05E2EDAE058 /* ExperienceRecorder-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6C0EC53F41ADC1C7310C6FF77D62D90B /* Headers */ = {
+		587FF491EDD19BAD28E1EFD96B02FD63 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A48B69E3FDA1C6ABF60480A9B80D24BF /* Experience-Recorder-umbrella.h in Headers */,
+				8321160662C1806F744BD98FE62A095F /* Pods-Experience-Recorder_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0BAE5C102238DDFD547AB0E845E4863 /* Headers */ = {
+		ED5C11F54C237B13EA2D3F0A300A5A49 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1521A4D953C9D0B107EDF286713F9BBF /* Pods-Experience-Recorder_Tests-umbrella.h in Headers */,
+				51BD7308C9D229F893F4E854C429C38A /* Pods-Experience-Recorder_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0328139FAE6DD1B9B2C837F7102022C3 /* Experience-Recorder-Experience-Recorder */ = {
+		12804DD783D81596781D769F801CD39F /* Pods-Experience-Recorder_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 59C5D328A7C48DA709C66DFC33B0533A /* Build configuration list for PBXNativeTarget "Experience-Recorder-Experience-Recorder" */;
+			buildConfigurationList = B9B62707CD1DE5B7D59B0707064E5365 /* Build configuration list for PBXNativeTarget "Pods-Experience-Recorder_Tests" */;
 			buildPhases = (
-				2CFD7421507A8C04AB17379C6159E090 /* Sources */,
-				BD3F14EE436FFBADD7B2818AC02D2F94 /* Frameworks */,
-				3ED9ED9C394876DAA5CE12CAC0190290 /* Resources */,
+				1F4A0A3CC9071260334D9338AECE8072 /* Sources */,
+				5276645D0E869D5E5F7F06DFF6FB2BB0 /* Frameworks */,
+				ED5C11F54C237B13EA2D3F0A300A5A49 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = "Experience-Recorder-Experience-Recorder";
-			productName = "Experience-Recorder-Experience-Recorder";
-			productReference = F330D44AAE7606A8E7EE40E2F101E3FE /* Experience-Recorder.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		0C024305732CBA26472776B07A9D6AAA /* Experience-Recorder */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9366241B1A329936FDC2078FF532C709 /* Build configuration list for PBXNativeTarget "Experience-Recorder" */;
-			buildPhases = (
-				ED5F45C5004799B964B1020C7B77A235 /* Sources */,
-				D939A1F09D7EEA601FC38609EB2D8384 /* Frameworks */,
-				052FCCB023ADEABEEF64B99ABFC0694F /* Resources */,
-				6C0EC53F41ADC1C7310C6FF77D62D90B /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6C7D8E11EEFB785CD2D16DAF12F563B9 /* PBXTargetDependency */,
-			);
-			name = "Experience-Recorder";
-			productName = "Experience-Recorder";
-			productReference = 0E53BC183907AF07A78E00A4640DF133 /* Experience_Recorder.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		91D48837CC07E04917A482D8DB0280DC /* Pods-Experience-Recorder_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 24B810FE0DD46A1B194854C56D323FA6 /* Build configuration list for PBXNativeTarget "Pods-Experience-Recorder_Example" */;
-			buildPhases = (
-				EDA46ABB1E2894DDCF7F55870B365644 /* Sources */,
-				D402BCF6F9C40EFC6C33F8B913902181 /* Frameworks */,
-				0DCD02946AE3F3B3D081A70F15FA6D9A /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1E841FA04FC16A49E3C739EF375A6AC1 /* PBXTargetDependency */,
-			);
-			name = "Pods-Experience-Recorder_Example";
-			productName = "Pods-Experience-Recorder_Example";
-			productReference = FD382E73227A6259BEADA7E0897CD252 /* Pods_Experience_Recorder_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C1AD06559F1D2F0242485D76E2F223AA /* Pods-Experience-Recorder_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 23312B0DBFCC01662074ABF279D4BD6A /* Build configuration list for PBXNativeTarget "Pods-Experience-Recorder_Tests" */;
-			buildPhases = (
-				911119ADF843691818898055E8C5E951 /* Sources */,
-				BA777DE6BCB35AFB2E4E2FBC40685242 /* Frameworks */,
-				A0BAE5C102238DDFD547AB0E845E4863 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				69578A344B1CB6D06072685361BDED51 /* PBXTargetDependency */,
+				5AF36170CC5B52B17CAF2BC72F4072E9 /* PBXTargetDependency */,
 			);
 			name = "Pods-Experience-Recorder_Tests";
 			productName = "Pods-Experience-Recorder_Tests";
-			productReference = CF1C8574F13FF6181E68F5BE49731A1A /* Pods_Experience_Recorder_Tests.framework */;
+			productReference = 9283F6011466538C82588F9217E34C9C /* Pods_Experience_Recorder_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		773A103F5C295FA30E74125CD2309685 /* ExperienceRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843861DF7A5653F728CAD2D8FAD14A2A /* Build configuration list for PBXNativeTarget "ExperienceRecorder" */;
+			buildPhases = (
+				7997BDEF9574E51815412143373CAACD /* Sources */,
+				E3EE65384CBA1FE58C3124B33853060D /* Frameworks */,
+				82E107FA0651252B0E4D48309E07DD17 /* Resources */,
+				300CBE5A33D2B75B0EEB4BDD9A770CC6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECF90E48FDD8DCE54A6417F23DEDE717 /* PBXTargetDependency */,
+			);
+			name = ExperienceRecorder;
+			productName = ExperienceRecorder;
+			productReference = BAD72896BB81ADA11C1AD08DF4314D99 /* ExperienceRecorder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A939D7D2E2D33D1239A71B27E4EEB5F8 /* ExperienceRecorder-Experience-Recorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21EAA25B0C8D7A61B718D8E59FFFE4DC /* Build configuration list for PBXNativeTarget "ExperienceRecorder-Experience-Recorder" */;
+			buildPhases = (
+				D26080CBA930920BF047B78332BC7943 /* Sources */,
+				8B0BD598DF2620B3D4ADA23BDCA3401D /* Frameworks */,
+				7A80140052739E950B2ADF626CB828AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ExperienceRecorder-Experience-Recorder";
+			productName = "ExperienceRecorder-Experience-Recorder";
+			productReference = 113169C3797BD3B31F5FF3FA840DFDE7 /* Experience-Recorder.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B4D7A56155F6B963A93073CA2A7B4ECE /* Pods-Experience-Recorder_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 234F25CA8C30F57B771D8ADC47A8CF3F /* Build configuration list for PBXNativeTarget "Pods-Experience-Recorder_Example" */;
+			buildPhases = (
+				D5F5D4AC2ED8E55455053F2BE45B0225 /* Sources */,
+				EF8C20AD9F98749229BD3570E282A4FA /* Frameworks */,
+				587FF491EDD19BAD28E1EFD96B02FD63 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B571D2DB3941ED2E761B2F0C2A0257D7 /* PBXTargetDependency */,
+			);
+			name = "Pods-Experience-Recorder_Example";
+			productName = "Pods-Experience-Recorder_Example";
+			productReference = D0AB6DA2188C1CE995FDAA35D47F719F /* Pods_Experience_Recorder_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -365,104 +372,124 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0AD9AA1A18894278B475BB9B82892CDF /* Products */;
+			productRefGroup = 74925AA60A51B74397096D876634C44E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0C024305732CBA26472776B07A9D6AAA /* Experience-Recorder */,
-				0328139FAE6DD1B9B2C837F7102022C3 /* Experience-Recorder-Experience-Recorder */,
-				91D48837CC07E04917A482D8DB0280DC /* Pods-Experience-Recorder_Example */,
-				C1AD06559F1D2F0242485D76E2F223AA /* Pods-Experience-Recorder_Tests */,
+				773A103F5C295FA30E74125CD2309685 /* ExperienceRecorder */,
+				A939D7D2E2D33D1239A71B27E4EEB5F8 /* ExperienceRecorder-Experience-Recorder */,
+				B4D7A56155F6B963A93073CA2A7B4ECE /* Pods-Experience-Recorder_Example */,
+				12804DD783D81596781D769F801CD39F /* Pods-Experience-Recorder_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		052FCCB023ADEABEEF64B99ABFC0694F /* Resources */ = {
+		7A80140052739E950B2ADF626CB828AD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1845E9A13052E0F17A474A62BC9ED8E5 /* Experience-Recorder.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3ED9ED9C394876DAA5CE12CAC0190290 /* Resources */ = {
+		82E107FA0651252B0E4D48309E07DD17 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB8DBD50D7C6A90DAD742E77627285EC /* Experience-Recorder.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2CFD7421507A8C04AB17379C6159E090 /* Sources */ = {
+		1F4A0A3CC9071260334D9338AECE8072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16828858756E479828ABA4842F8BAA85 /* Pods-Experience-Recorder_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7997BDEF9574E51815412143373CAACD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C9D724F1EF810A7F4D8F0C1A5C3F58 /* ASScreenRecorder.m in Sources */,
+				D0A1A2D2D95334EE02D9A3D4A308F4D2 /* ExperienceRecorder-dummy.m in Sources */,
+				D18A9799919409ED475075DFC882461D /* ExperienceRecorder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D26080CBA930920BF047B78332BC7943 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		911119ADF843691818898055E8C5E951 /* Sources */ = {
+		D5F5D4AC2ED8E55455053F2BE45B0225 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B86610732B43D6A246621E698183AAA /* Pods-Experience-Recorder_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ED5F45C5004799B964B1020C7B77A235 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AF6BCD2D869C8609D26E1C8F708135F5 /* Experience-Recorder-dummy.m in Sources */,
-				561240ED13CF2D11CC1C891FE62DE395 /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EDA46ABB1E2894DDCF7F55870B365644 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				196B94AA93B34DAD234DFE6DAFD67F95 /* Pods-Experience-Recorder_Example-dummy.m in Sources */,
+				5442EC1A9EB70521D1858B9E56C88F24 /* Pods-Experience-Recorder_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1E841FA04FC16A49E3C739EF375A6AC1 /* PBXTargetDependency */ = {
+		5AF36170CC5B52B17CAF2BC72F4072E9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Experience-Recorder";
-			target = 0C024305732CBA26472776B07A9D6AAA /* Experience-Recorder */;
-			targetProxy = CA68970CA5E4A74834416D154F8A5364 /* PBXContainerItemProxy */;
+			name = ExperienceRecorder;
+			target = 773A103F5C295FA30E74125CD2309685 /* ExperienceRecorder */;
+			targetProxy = 9359DF82FBF86C9161B1824D51F3DF3F /* PBXContainerItemProxy */;
 		};
-		69578A344B1CB6D06072685361BDED51 /* PBXTargetDependency */ = {
+		B571D2DB3941ED2E761B2F0C2A0257D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Experience-Recorder";
-			target = 0C024305732CBA26472776B07A9D6AAA /* Experience-Recorder */;
-			targetProxy = 8FADB3C3F5CB6BDF3E433699E4BBA957 /* PBXContainerItemProxy */;
+			name = ExperienceRecorder;
+			target = 773A103F5C295FA30E74125CD2309685 /* ExperienceRecorder */;
+			targetProxy = A646D78434BEACCE9B411430EE8FDB2B /* PBXContainerItemProxy */;
 		};
-		6C7D8E11EEFB785CD2D16DAF12F563B9 /* PBXTargetDependency */ = {
+		ECF90E48FDD8DCE54A6417F23DEDE717 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Experience-Recorder-Experience-Recorder";
-			target = 0328139FAE6DD1B9B2C837F7102022C3 /* Experience-Recorder-Experience-Recorder */;
-			targetProxy = 81E4C2519DC371B4E4B165F43AAB823D /* PBXContainerItemProxy */;
+			name = "ExperienceRecorder-Experience-Recorder";
+			target = A939D7D2E2D33D1239A71B27E4EEB5F8 /* ExperienceRecorder-Experience-Recorder */;
+			targetProxy = E8196E3B99354C94E6FFF7EA398828F7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0618E4DBF86EB192685026C453FD1239 /* Release */ = {
+		06371D8A640CD87C496C9D85C5B02226 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1E0A444D58D28742EA98B9E3B4AD35F /* Experience-Recorder.xcconfig */;
+			baseConfigurationReference = 7CA6DE55CB867DDC82AA2BD7BE73DD5A /* Pods-Experience-Recorder_Example.debug.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = "Experience-Recorder";
+				INFOPLIST_FILE = "Target Support Files/Pods-Experience-Recorder_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Experience-Recorder_Example/Pods-Experience-Recorder_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Experience_Recorder_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -497,91 +524,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		12DA0F61DCA5898990FBB231629F3343 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1E0A444D58D28742EA98B9E3B4AD35F /* Experience-Recorder.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Experience-Recorder/Experience-Recorder-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Experience-Recorder/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Experience-Recorder/Experience-Recorder.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Experience_Recorder;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		17C2103D14B9A57D4167713E87D3B48A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB131DF111636F8C8F325E0ACF7F4A68 /* Pods-Experience-Recorder_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Experience-Recorder_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Experience-Recorder_Example/Pods-Experience-Recorder_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_Experience_Recorder_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4A66F114E1962EAED1E3776C1C8F7AD9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1E0A444D58D28742EA98B9E3B4AD35F /* Experience-Recorder.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Experience-Recorder/Experience-Recorder-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Experience-Recorder/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Experience-Recorder/Experience-Recorder.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Experience_Recorder;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -622,9 +564,9 @@
 			};
 			name = Debug;
 		};
-		7582CB3E97C5F047741DCD59B3E1EDED /* Debug */ = {
+		6096D2FDFB562334CB284EED9482D580 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1E0A444D58D28742EA98B9E3B4AD35F /* Experience-Recorder.xcconfig */;
+			baseConfigurationReference = D434A425E7D8579ECD52E1D0BD85D1DE /* ExperienceRecorder.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = "Experience-Recorder";
@@ -632,9 +574,39 @@
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
-		89DB3E055B859DCA0110C00B7CAABD87 /* Release */ = {
+		6531A0B828542A2C8FAC93C7EFF1DCD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB131DF111636F8C8F325E0ACF7F4A68 /* Pods-Experience-Recorder_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Experience-Recorder_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Experience-Recorder_Example/Pods-Experience-Recorder_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Experience_Recorder_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AFE08B9B4879627FFED384267F77A19B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 13568EFBA2B9D924B268975B9F76D319 /* Pods-Experience-Recorder_Tests.release.xcconfig */;
 			buildSettings = {
@@ -664,7 +636,7 @@
 			};
 			name = Release;
 		};
-		9CAD70C7868237A1EA88825AA100C530 /* Debug */ = {
+		BC92E475D85DB4906AADF4BB72D04141 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8E6CD1CE00F89190D1C63DA902F1FAB1 /* Pods-Experience-Recorder_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -695,9 +667,21 @@
 			};
 			name = Debug;
 		};
-		A1448B3F015AF1B406B1D51EEA2B5214 /* Debug */ = {
+		F0D00CF2668C15452961CCCF3EBAFF35 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CA6DE55CB867DDC82AA2BD7BE73DD5A /* Pods-Experience-Recorder_Example.debug.xcconfig */;
+			baseConfigurationReference = D434A425E7D8579ECD52E1D0BD85D1DE /* ExperienceRecorder.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = "Experience-Recorder";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F2AE779622F155F2C43296BD0F28D86C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D434A425E7D8579ECD52E1D0BD85D1DE /* ExperienceRecorder.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -706,17 +690,14 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Experience-Recorder_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/ExperienceRecorder/ExperienceRecorder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ExperienceRecorder/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Experience-Recorder_Example/Pods-Experience-Recorder_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/ExperienceRecorder/ExperienceRecorder.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_Experience_Recorder_Example;
+				PRODUCT_NAME = ExperienceRecorder;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -726,23 +707,50 @@
 			};
 			name = Debug;
 		};
+		FE32F856702433F9942DA2C9055944EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D434A425E7D8579ECD52E1D0BD85D1DE /* ExperienceRecorder.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ExperienceRecorder/ExperienceRecorder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ExperienceRecorder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ExperienceRecorder/ExperienceRecorder.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ExperienceRecorder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		23312B0DBFCC01662074ABF279D4BD6A /* Build configuration list for PBXNativeTarget "Pods-Experience-Recorder_Tests" */ = {
+		21EAA25B0C8D7A61B718D8E59FFFE4DC /* Build configuration list for PBXNativeTarget "ExperienceRecorder-Experience-Recorder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9CAD70C7868237A1EA88825AA100C530 /* Debug */,
-				89DB3E055B859DCA0110C00B7CAABD87 /* Release */,
+				F0D00CF2668C15452961CCCF3EBAFF35 /* Debug */,
+				6096D2FDFB562334CB284EED9482D580 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		24B810FE0DD46A1B194854C56D323FA6 /* Build configuration list for PBXNativeTarget "Pods-Experience-Recorder_Example" */ = {
+		234F25CA8C30F57B771D8ADC47A8CF3F /* Build configuration list for PBXNativeTarget "Pods-Experience-Recorder_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A1448B3F015AF1B406B1D51EEA2B5214 /* Debug */,
-				17C2103D14B9A57D4167713E87D3B48A /* Release */,
+				06371D8A640CD87C496C9D85C5B02226 /* Debug */,
+				6531A0B828542A2C8FAC93C7EFF1DCD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -756,20 +764,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		59C5D328A7C48DA709C66DFC33B0533A /* Build configuration list for PBXNativeTarget "Experience-Recorder-Experience-Recorder" */ = {
+		843861DF7A5653F728CAD2D8FAD14A2A /* Build configuration list for PBXNativeTarget "ExperienceRecorder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7582CB3E97C5F047741DCD59B3E1EDED /* Debug */,
-				0618E4DBF86EB192685026C453FD1239 /* Release */,
+				F2AE779622F155F2C43296BD0F28D86C /* Debug */,
+				FE32F856702433F9942DA2C9055944EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9366241B1A329936FDC2078FF532C709 /* Build configuration list for PBXNativeTarget "Experience-Recorder" */ = {
+		B9B62707CD1DE5B7D59B0707064E5365 /* Build configuration list for PBXNativeTarget "Pods-Experience-Recorder_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4A66F114E1962EAED1E3776C1C8F7AD9 /* Debug */,
-				12DA0F61DCA5898990FBB231629F3343 /* Release */,
+				BC92E475D85DB4906AADF4BB72D04141 /* Debug */,
+				AFE08B9B4879627FFED384267F77A19B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

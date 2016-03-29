@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ebP-tZ-a7x">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Experience_Recorder_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -15,11 +16,66 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qoF-SV-kEa">
+                                <rect key="frame" x="217" y="266" width="167" height="30"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="167" id="roS-SG-7Ib"/>
+                                    <constraint firstAttribute="height" constant="30" id="zgT-9p-14D"/>
+                                </constraints>
+                                <state key="normal" title="Push Screen"/>
+                                <connections>
+                                    <segue destination="vXZ-lx-hvc" kind="show" id="bUS-gX-d5V"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oIW-DT-8QQ">
+                                <rect key="frame" x="217" y="304" width="167" height="30"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Pt1-Py-G2f"/>
+                                    <constraint firstAttribute="width" constant="167" id="v6c-GL-fep"/>
+                                </constraints>
+                                <state key="normal" title="Stop Recording"/>
+                                <connections>
+                                    <action selector="stopTouched:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="oFs-gv-8Ca"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="oIW-DT-8QQ" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="3WA-rj-b94"/>
+                            <constraint firstItem="qoF-SV-kEa" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" constant="-19" id="5RU-Yk-fLl"/>
+                            <constraint firstItem="qoF-SV-kEa" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="HAS-bk-Nv4"/>
+                            <constraint firstItem="oIW-DT-8QQ" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" constant="19" id="utK-dq-H17"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="YcM-YS-DuY"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1036" y="1078"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="BDu-f9-k6g">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ebP-tZ-a7x" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="OA8-NB-JSF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="inq-zs-9Er"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FHv-tK-Yns" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="1078"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="inq-zs-9Er"/>
+    </inferredMetricsTieBreakers>
 </document>
